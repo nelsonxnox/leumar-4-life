@@ -1,4 +1,30 @@
 {
   "cleanUrls": true,
-  "trailingSlash": true
+  "trailingSlash": true,
+  "rewrites": [
+    {
+      "source": "/contact",
+      "destination": "/contacto/index.html"
+    },
+    {
+      "source": "/contact/",
+      "destination": "/contacto/index.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/sobre-nosotros/index.html"
+    },
+    {
+      "source": "/about/",
+      "destination": "/sobre-nosotros/index.html"
+    },
+    {
+      "source": "/products",
+      "destination": "/productos/index.html"
+    },
+    {
+      "source": "/products/",
+      "destination": "/productos/index.html"
+    }
+  ]
 }
