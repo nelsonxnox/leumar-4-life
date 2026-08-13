@@ -1,0 +1,14 @@
+# robots.txt – Leumar4Life Miami
+# https://www.leumar4life.com
+
+User-agent: *
+Allow: /
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+
+# Sitemaps
+Sitemap: https://www.leumar4life.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
